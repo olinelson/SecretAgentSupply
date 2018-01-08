@@ -1,15 +1,35 @@
 html{
   font-size: 18px;
   font-family: Helvetica;
+
 }
 
-header{
-  background-color: black;
+body{
+  margin: 0;
+  padding: 0;
   width: 100%;
-  z-index: 1000;
+
+  }
+
+
+
+
+
+header{
+  width: 960px ;
   display:flex;
   align-items: center;
   justify-content: ;
+  margin:0;
+  padding:0;
+}
+
+.container1{
+  background-color: black;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center ;
 }
 
 header img{
@@ -29,7 +49,7 @@ header h3{
   width: 960px;
 }
 
-.container1{
+.container2{
   background-image: url(../moto.jpg);
   background-size: cover;
   background-position: center;
@@ -37,9 +57,20 @@ header h3{
   width: 100%;
   padding: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
+
 
 
 }
+.container2a{
+  width: 960px;
+
+  height: 100%;
+  z-index: 1000;
+
+}
+
 .newarrival{
   background-color: black;
   color: white;
@@ -68,38 +99,55 @@ header h3{
 
 }
 
-.container2{
+.container3{
   background-color: firebrick;
   color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 
 
 
 }
 
-.container2 ul{
+.container3 nav{
+  width: 960px;
+  padding: 0;
+
+}
+.container3 ul{
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  padding: 0.75rem 0 0.75rem 0;
-  margin: 0 0 3rem 0 ;
+
+
 }
 
-.container3{
-  display: flex;
+.container4{
   width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 3rem;
+
+
+}
+
+.container4a{
+  display: flex;
+  width: 960px;
   background-color: white;
   flex-wrap: wrap;
   justify-content: space-between;
-
-
 }
 
-.container3 img{
-  height: 9rem;
+.container4 img{
+  height: ;
   width: auto;
-  align-self: center;
   padding: 2rem 9rem;
-  max-width: 100%;
+  max-width: 9rem;
 }
 
 .picbox {
@@ -109,6 +157,9 @@ header h3{
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
 
 }
 
@@ -116,13 +167,21 @@ header h3{
   background-color: black;
   padding: 0.5rem 0;
   margin: 0;
+  width: 100%;
   text-align: center;
+
+
+}
+
+#glasses{
+  padding-top: 4rem;
 }
 
 .textbox{
   width: 35%;
   margin-top: 3rem ;
   margin-bottom: 4rem;
+
 }
 
 .textbox h4{
@@ -138,12 +197,19 @@ header h3{
 
 }
 
+.container5{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 
 footer{
-  background-color: black;
+
   color: white;
   height: 5rem;
-  width: 100%;
+  width: 960px;
   text-align: left;
   display: flex;
   align-items: center;
